@@ -3,75 +3,79 @@
 <head>
   <meta charset="UTF-8">
   <title>Andruta</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <center> <table cellspacing="25">
+  <div class="container">
+    <div class="info">
+        <img src="i.jpeg"  alt="face"  class="avatar"/>
+        <div class="info-text">
+          <h1>Андрей</h1>
+          <p>интересующийся</p>
+          <p>руководитель АйТи подразделения</p>
+          <p><strong>комитет</strong> </p>
+        
+          <h4>мои мысли</h4>
+            <a href="https://www.filemakermagazine.com" target="_blank"> Filemaker</a>
+            |
+            <a href="links.html">This is horosho</a>  
+      </div> 
+    </div>
+    
+    <div class="card bg-yellow">
+      <h2>hobby</h2>
+      <ol class="list">
+          <li>asfsadfsd</li>
+          <li>asfsadfsd</li>
+          <li>asfsadfsd</li>
+      </ol>
+    </div>
+
+    <div class="card bg-red">
+    <h2>Jobs</h2>
+    <table class="table">
+      
       <tr>
-      <td><img src="i.jpeg" width="250" alt="face"></td>
-      <td><h1>Андрей</h1>
-  <p>интересующийся</p>
-  <em>руководитель АйТи подразделения</em><br>
-  <strong>комитет</strong></td>
+          <td>ГТК</td>
+          <td>инспектор</td>
+          <td>2000-2005</td>
       </tr>
-  </table></center>
-
-
-  <hr>
-  <h2>мои мысли</h2>
-  <ul>
-      <li><a href="https://www.filemakermagazine.com" target="_blank"> Filemaker</a></li>
-      <li>
-          <a href="links.html">This is horosho</a>   
-      </li>
-      <li>dsfgdfdg</li>
-  </ul>
-<hr>
-  <h2>hobby</h2>
-
-  <ol>
-      <li>asfsadfsd</li>
-      <li>asfsadfsd</li>
-      <li>asfsadfsd</li>
-
-  </ol>
-  <hr>
-<h2>Jobs</h2>
-<table border="1">
-  <tr>
-      <th>Организация</th>
-      <th>должность</th>
-      <th>период</th>
-  </tr>
-  <tr>
-      <td>ГТК</td>
-      <td>инспектор</td>
-      <td>2000-2005</td>
-  </tr>
-  <tr>
-      <td>ГТК</td>
-      <td>начальник отдела</td>
-      <td>2005-2014</td>
-  </tr>
-  <tr>
-      <td>КГК</td>
-      <td>зам.начальника ГУ</td>
-      <td>2014-н.в.</td>
-  </tr>
-</table>
-<hr>
-<h2>Connect to my</h2>
-<form>
-  <label for="name">Ваше имя:</label>
-  <input type="text" id="name" placeholder="Введите имя..">
-<br>
-  <label for="email">Ваш e-mail:</label>
-  <input type="email" id="email" placeholder="Введите email..">
-  <br>
-
-  <label for="messg">Ваше сообщение:</label><br>
-  <textarea name="Message" id="messg" cols="30" rows="10"></textarea>
-<br>
-  <input type="submit" value="Связаться">
-</form>
+      <tr>
+          <td>ГТК</td>
+          <td>начальник отдела</td>
+          <td>2005-2014</td>
+      </tr>
+      <tr>
+          <td>КГК</td>
+          <td>зам.начальника ГУ</td>
+          <td>2014-н.в.</td>
+      </tr>
+    </table>
+  </div>
+  
+  <div class="card bg-green">
+    <h2>Connect to my</h2>
+    <form>
+      <div class="row">
+        <div class="form-group">
+          <label for="name">Ваше имя:</label>
+          <input type="text" id="name" placeholder="Введите имя..">
+        </div>
+        <div class="form-group">
+          <label for="email">Ваш e-mail:</label>
+          <input type="email" id="email" placeholder="Введите email..">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="messg">Ваше сообщение:</label><br>
+        <textarea name="Message" id="messg" cols="30" rows="10"></textarea>
+      </div>
+      <input type="submit" value="Связаться" class="btn">
+    </form>
+  </div>
+</div>
 </body>
+<div class="nav">
+  <div></div>
+</div>
 </html>
